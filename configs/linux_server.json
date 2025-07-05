@@ -1,0 +1,320 @@
+[
+  {
+    "name": "git",
+    "manager": "apt",
+    "tags": ["server", "development", "version-control", "essential"],
+    "priority": 10
+  },
+  {
+    "name": "curl",
+    "manager": "apt",
+    "tags": ["server", "utility", "essential"],
+    "priority": 10
+  },
+  {
+    "name": "wget",
+    "manager": "apt",
+    "tags": ["server", "utility", "essential"],
+    "priority": 10
+  },
+  {
+    "name": "htop",
+    "manager": "apt",
+    "tags": ["server", "monitoring", "system", "essential"],
+    "priority": 9
+  },
+  {
+    "name": "nano",
+    "manager": "apt",
+    "tags": ["server", "editor", "essential"],
+    "priority": 9
+  },
+  {
+    "name": "vim",
+    "manager": "apt",
+    "tags": ["server", "editor", "essential"],
+    "priority": 8
+  },
+  {
+    "name": "emacs",
+    "manager": "apt",
+    "tags": ["server", "editor"],
+    "priority": 7
+  },
+  {
+    "name": "python3",
+    "manager": "apt",
+    "tags": ["server", "development", "python", "essential"],
+    "priority": 9
+  },
+  {
+    "name": "python3-pip",
+    "manager": "apt",
+    "tags": ["server", "development", "python"],
+    "priority": 8
+  },
+  {
+    "name": "nodejs",
+    "manager": "apt",
+    "tags": ["server", "development", "javascript"],
+    "priority": 7
+  },
+  {
+    "name": "npm",
+    "manager": "apt",
+    "tags": ["server", "development", "javascript"],
+    "priority": 7
+  },
+  {
+    "name": "docker.io",
+    "manager": "apt",
+    "tags": ["server", "containerization", "essential"],
+    "priority": 8
+  },
+  {
+    "name": "docker-compose",
+    "manager": "apt",
+    "tags": ["server", "containerization"],
+    "priority": 7
+  },
+  {
+    "name": "nginx",
+    "manager": "apt",
+    "tags": ["server", "web-server", "essential"],
+    "priority": 8
+  },
+  {
+    "name": "apache2",
+    "manager": "apt",
+    "tags": ["server", "web-server"],
+    "priority": 7
+  },
+  {
+    "name": "mysql-server",
+    "manager": "apt",
+    "tags": ["server", "database", "mysql"],
+    "priority": 7
+  },
+  {
+    "name": "postgresql",
+    "manager": "apt",
+    "tags": ["server", "database", "postgresql"],
+    "priority": 7
+  },
+  {
+    "name": "redis-server",
+    "manager": "apt",
+    "tags": ["server", "database", "redis"],
+    "priority": 6
+  },
+  {
+    "name": "mongodb",
+    "manager": "apt",
+    "tags": ["server", "database", "mongodb"],
+    "priority": 6
+  },
+  {
+    "name": "fail2ban",
+    "manager": "apt",
+    "tags": ["server", "security", "firewall"],
+    "priority": 8
+  },
+  {
+    "name": "ufw",
+    "manager": "apt",
+    "tags": ["server", "security", "firewall"],
+    "priority": 8
+  },
+  {
+    "name": "openssh-server",
+    "manager": "apt",
+    "tags": ["server", "security", "ssh", "essential"],
+    "priority": 9
+  },
+  {
+    "name": "certbot",
+    "manager": "apt",
+    "tags": ["server", "security", "ssl"],
+    "priority": 6
+  },
+  {
+    "name": "letsencrypt",
+    "manager": "apt",
+    "tags": ["server", "security", "ssl"],
+    "priority": 6
+  },
+  {
+    "name": "logwatch",
+    "manager": "apt",
+    "tags": ["server", "monitoring", "logs"],
+    "priority": 5
+  },
+  {
+    "name": "mtr",
+    "manager": "apt",
+    "tags": ["server", "monitoring", "network"],
+    "priority": 5
+  },
+  {
+    "name": "iftop",
+    "manager": "apt",
+    "tags": ["server", "monitoring", "network"],
+    "priority": 4
+  },
+  {
+    "name": "iotop",
+    "manager": "apt",
+    "tags": ["server", "monitoring", "disk"],
+    "priority": 4
+  },
+  {
+    "name": "ncdu",
+    "manager": "apt",
+    "tags": ["server", "utility", "disk-usage"],
+    "priority": 5
+  },
+  {
+    "name": "tree",
+    "manager": "apt",
+    "tags": ["server", "utility", "file-system"],
+    "priority": 4
+  },
+  {
+    "name": "tmux",
+    "manager": "apt",
+    "tags": ["server", "utility", "terminal"],
+    "priority": 7
+  },
+  {
+    "name": "screen",
+    "manager": "apt",
+    "tags": ["server", "utility", "terminal"],
+    "priority": 6
+  },
+  {
+    "name": "zsh",
+    "manager": "apt",
+    "tags": ["server", "utility", "shell"],
+    "priority": 5
+  },
+  {
+    "name": "fish",
+    "manager": "apt",
+    "tags": ["server", "utility", "shell"],
+    "priority": 4
+  },
+  {
+    "name": "unzip",
+    "manager": "apt",
+    "tags": ["server", "utility", "compression"],
+    "priority": 6
+  },
+  {
+    "name": "zip",
+    "manager": "apt",
+    "tags": ["server", "utility", "compression"],
+    "priority": 6
+  },
+  {
+    "name": "tar",
+    "manager": "apt",
+    "tags": ["server", "utility", "compression"],
+    "priority": 6
+  },
+  {
+    "name": "rsync",
+    "manager": "apt",
+    "tags": ["server", "utility", "sync"],
+    "priority": 7
+  },
+  {
+    "name": "cron",
+    "manager": "apt",
+    "tags": ["server", "utility", "scheduling"],
+    "priority": 7
+  },
+  {
+    "name": "at",
+    "manager": "apt",
+    "tags": ["server", "utility", "scheduling"],
+    "priority": 5
+  },
+  {
+    "name": "supervisor",
+    "manager": "apt",
+    "tags": ["server", "utility", "process-management"],
+    "priority": 6
+  },
+  {
+    "name": "systemd",
+    "manager": "apt",
+    "tags": ["server", "system", "init"],
+    "priority": 10
+  },
+  {
+    "name": "snapd",
+    "manager": "apt",
+    "tags": ["server", "package-manager"],
+    "priority": 5
+  },
+  {
+    "name": "flatpak",
+    "manager": "apt",
+    "tags": ["server", "package-manager"],
+    "priority": 4
+  },
+  {
+    "name": "build-essential",
+    "manager": "apt",
+    "tags": ["server", "development", "compilation"],
+    "priority": 6
+  },
+  {
+    "name": "cmake",
+    "manager": "apt",
+    "tags": ["server", "development", "build"],
+    "priority": 5
+  },
+  {
+    "name": "gcc",
+    "manager": "apt",
+    "tags": ["server", "development", "compiler"],
+    "priority": 6
+  },
+  {
+    "name": "g++",
+    "manager": "apt",
+    "tags": ["server", "development", "compiler"],
+    "priority": 5
+  },
+  {
+    "name": "clang",
+    "manager": "apt",
+    "tags": ["server", "development", "compiler"],
+    "priority": 4
+  },
+  {
+    "name": "valgrind",
+    "manager": "apt",
+    "tags": ["server", "development", "debugging"],
+    "priority": 3
+  },
+  {
+    "name": "gdb",
+    "manager": "apt",
+    "tags": ["server", "development", "debugging"],
+    "priority": 4
+  },
+  {
+    "name": "strace",
+    "manager": "apt",
+    "tags": ["server", "development", "debugging"],
+    "priority": 3
+  },
+  {
+    "name": "ltrace",
+    "manager": "apt",
+    "tags": ["server", "development", "debugging"],
+    "priority": 3
+  }
+] 

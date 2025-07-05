@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Microsoft Office",
+    "manager": "winget",
+    "tags": ["productivity", "office", "essential"],
+    "priority": 10
+  },
+  {
+    "name": "Google Chrome",
+    "manager": "winget",
+    "tags": ["productivity", "browser", "essential"],
+    "priority": 9
+  },
+  {
+    "name": "Mozilla Firefox",
+    "manager": "winget",
+    "tags": ["productivity", "browser", "essential"],
+    "priority": 8
+  },
+  {
+    "name": "Microsoft Edge",
+    "manager": "winget",
+    "tags": ["productivity", "browser", "essential"],
+    "priority": 7
+  },
+  {
+    "name": "Adobe Acrobat Reader",
+    "manager": "choco",
+    "tags": ["productivity", "pdf", "essential"],
+    "priority": 8
+  },
+  {
+    "name": "Slack",
+    "manager": "winget",
+    "tags": ["productivity", "communication", "business"],
+    "priority": 7
+  },
+  {
+    "name": "Microsoft Teams",
+    "manager": "winget",
+    "tags": ["productivity", "communication", "business"],
+    "priority": 7
+  },
+  {
+    "name": "Zoom",
+    "manager": "winget",
+    "tags": ["productivity", "communication", "video"],
+    "priority": 6
+  },
+  {
+    "name": "Skype",
+    "manager": "winget",
+    "tags": ["productivity", "communication", "video"],
+    "priority": 5
+  },
+  {
+    "name": "Notion",
+    "manager": "winget",
+    "tags": ["productivity", "notes", "collaboration"],
+    "priority": 6
+  },
+  {
+    "name": "Evernote",
+    "manager": "winget",
+    "tags": ["productivity", "notes", "organization"],
+    "priority": 5
+  },
+  {
+    "name": "OneNote",
+    "manager": "winget",
+    "tags": ["productivity", "notes", "microsoft"],
+    "priority": 5
+  },
+  {
+    "name": "Trello",
+    "manager": "winget",
+    "tags": ["productivity", "project-management", "kanban"],
+    "priority": 5
+  },
+  {
+    "name": "Asana",
+    "manager": "winget",
+    "tags": ["productivity", "project-management", "collaboration"],
+    "priority": 4
+  },
+  {
+    "name": "Monday.com",
+    "manager": "winget",
+    "tags": ["productivity", "project-management", "workflow"],
+    "priority": 4
+  },
+  {
+    "name": "Dropbox",
+    "manager": "winget",
+    "tags": ["productivity", "cloud-storage", "sync"],
+    "priority": 6
+  },
+  {
+    "name": "Google Drive",
+    "manager": "winget",
+    "tags": ["productivity", "cloud-storage", "google"],
+    "priority": 6
+  },
+  {
+    "name": "OneDrive",
+    "manager": "winget",
+    "tags": ["productivity", "cloud-storage", "microsoft"],
+    "priority": 6
+  },
+  {
+    "name": "7zip",
+    "manager": "choco",
+    "tags": ["productivity", "utility", "compression"],
+    "priority": 5
+  },
+  {
+    "name": "WinRAR",
+    "manager": "choco",
+    "tags": ["productivity", "utility", "compression"],
+    "priority": 4
+  },
+  {
+    "name": "CCleaner",
+    "manager": "winget",
+    "tags": ["productivity", "utility", "cleanup"],
+    "priority": 3
+  },
+  {
+    "name": "Malwarebytes",
+    "manager": "winget",
+    "tags": ["productivity", "security", "antivirus"],
+    "priority": 8
+  },
+  {
+    "name": "Avast Free Antivirus",
+    "manager": "winget",
+    "tags": ["productivity", "security", "antivirus"],
+    "priority": 7
+  },
+  {
+    "name": "LastPass",
+    "manager": "winget",
+    "tags": ["productivity", "security", "password-manager"],
+    "priority": 6
+  },
+  {
+    "name": "1Password",
+    "manager": "winget",
+    "tags": ["productivity", "security", "password-manager"],
+    "priority": 5
+  },
+  {
+    "name": "Bitwarden",
+    "manager": "winget",
+    "tags": ["productivity", "security", "password-manager"],
+    "priority": 5
+  },
+  {
+    "name": "Grammarly",
+    "manager": "winget",
+    "tags": ["productivity", "writing", "grammar"],
+    "priority": 4
+  },
+  {
+    "name": "Hemingway Editor",
+    "manager": "winget",
+    "tags": ["productivity", "writing", "editing"],
+    "priority": 3
+  },
+  {
+    "name": "Calibre",
+    "manager": "winget",
+    "tags": ["productivity", "ebook", "library"],
+    "priority": 3
+  },
+  {
+    "name": "Audacity",
+    "manager": "choco",
+    "tags": ["productivity", "audio", "editing"],
+    "priority": 3
+  },
+  {
+    "name": "GIMP",
+    "manager": "winget",
+    "tags": ["productivity", "graphics", "image-editing"],
+    "priority": 4
+  },
+  {
+    "name": "Inkscape",
+    "manager": "winget",
+    "tags": ["productivity", "graphics", "vector"],
+    "priority": 3
+  },
+  {
+    "name": "Blender",
+    "manager": "winget",
+    "tags": ["productivity", "graphics", "3d"],
+    "priority": 2
+  },
+  {
+    "name": "DaVinci Resolve",
+    "manager": "winget",
+    "tags": ["productivity", "video", "editing"],
+    "priority": 3
+  },
+  {
+    "name": "OBS Studio",
+    "manager": "winget",
+    "tags": ["productivity", "video", "streaming"],
+    "priority": 3
+  },
+  {
+    "name": "VLC media player",
+    "manager": "winget",
+    "tags": ["productivity", "media", "video"],
+    "priority": 5
+  },
+  {
+    "name": "Spotify",
+    "manager": "winget",
+    "tags": ["productivity", "media", "music"],
+    "priority": 4
+  },
+  {
+    "name": "iTunes",
+    "manager": "winget",
+    "tags": ["productivity", "media", "music"],
+    "priority": 3
+  }
+] 

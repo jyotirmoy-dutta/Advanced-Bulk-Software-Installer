@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Steam",
+    "manager": "winget",
+    "tags": ["gaming", "platform", "essential"],
+    "priority": 10
+  },
+  {
+    "name": "Epic Games Launcher",
+    "manager": "winget",
+    "tags": ["gaming", "platform", "essential"],
+    "priority": 9
+  },
+  {
+    "name": "Discord",
+    "manager": "winget",
+    "tags": ["gaming", "communication", "essential"],
+    "priority": 8
+  },
+  {
+    "name": "Battle.net",
+    "manager": "winget",
+    "tags": ["gaming", "platform", "blizzard"],
+    "priority": 7
+  },
+  {
+    "name": "Origin",
+    "manager": "winget",
+    "tags": ["gaming", "platform", "ea"],
+    "priority": 6
+  },
+  {
+    "name": "Uplay",
+    "manager": "winget",
+    "tags": ["gaming", "platform", "ubisoft"],
+    "priority": 6
+  },
+  {
+    "name": "GOG Galaxy",
+    "manager": "winget",
+    "tags": ["gaming", "platform", "gog"],
+    "priority": 5
+  },
+  {
+    "name": "Twitch",
+    "manager": "winget",
+    "tags": ["gaming", "streaming", "social"],
+    "priority": 5
+  },
+  {
+    "name": "OBS Studio",
+    "manager": "winget",
+    "tags": ["gaming", "streaming", "recording"],
+    "priority": 4
+  },
+  {
+    "name": "Xbox Game Bar",
+    "manager": "winget",
+    "tags": ["gaming", "xbox", "overlay"],
+    "priority": 4
+  },
+  {
+    "name": "Razer Synapse",
+    "manager": "winget",
+    "tags": ["gaming", "hardware", "razer"],
+    "priority": 3
+  },
+  {
+    "name": "Logitech G HUB",
+    "manager": "winget",
+    "tags": ["gaming", "hardware", "logitech"],
+    "priority": 3
+  },
+  {
+    "name": "Corsair iCUE",
+    "manager": "winget",
+    "tags": ["gaming", "hardware", "corsair"],
+    "priority": 3
+  },
+  {
+    "name": "MSI Afterburner",
+    "manager": "winget",
+    "tags": ["gaming", "hardware", "overclocking"],
+    "priority": 2
+  },
+  {
+    "name": "CPU-Z",
+    "manager": "winget",
+    "tags": ["gaming", "hardware", "monitoring"],
+    "priority": 2
+  },
+  {
+    "name": "GPU-Z",
+    "manager": "winget",
+    "tags": ["gaming", "hardware", "monitoring"],
+    "priority": 2
+  },
+  {
+    "name": "HWiNFO",
+    "manager": "winget",
+    "tags": ["gaming", "hardware", "monitoring"],
+    "priority": 2
+  },
+  {
+    "name": "Fraps",
+    "manager": "winget",
+    "tags": ["gaming", "recording", "benchmarking"],
+    "priority": 1
+  },
+  {
+    "name": "Bandicam",
+    "manager": "winget",
+    "tags": ["gaming", "recording", "screencast"],
+    "priority": 1
+  },
+  {
+    "name": "ShareX",
+    "manager": "winget",
+    "tags": ["gaming", "recording", "screenshot"],
+    "priority": 1
+  },
+  {
+    "name": "WinRAR",
+    "manager": "choco",
+    "tags": ["gaming", "utility", "compression"],
+    "priority": 1
+  },
+  {
+    "name": "7zip",
+    "manager": "choco",
+    "tags": ["gaming", "utility", "compression"],
+    "priority": 1
+  },
+  {
+    "name": "Cheat Engine",
+    "manager": "winget",
+    "tags": ["gaming", "modding", "memory"],
+    "priority": 1
+  },
+  {
+    "name": "Lutris",
+    "manager": "winget",
+    "tags": ["gaming", "linux", "wine"],
+    "priority": 1
+  },
+  {
+    "name": "Playnite",
+    "manager": "winget",
+    "tags": ["gaming", "launcher", "unified"],
+    "priority": 1
+  }
+] 

@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Malwarebytes",
+    "manager": "winget",
+    "tags": ["security", "antivirus", "essential"],
+    "priority": 10
+  },
+  {
+    "name": "Avast Free Antivirus",
+    "manager": "winget",
+    "tags": ["security", "antivirus", "essential"],
+    "priority": 9
+  },
+  {
+    "name": "Windows Defender",
+    "manager": "winget",
+    "tags": ["security", "antivirus", "microsoft"],
+    "priority": 8
+  },
+  {
+    "name": "Bitdefender Free",
+    "manager": "winget",
+    "tags": ["security", "antivirus"],
+    "priority": 7
+  },
+  {
+    "name": "Kaspersky Free",
+    "manager": "winget",
+    "tags": ["security", "antivirus"],
+    "priority": 6
+  },
+  {
+    "name": "LastPass",
+    "manager": "winget",
+    "tags": ["security", "password-manager", "essential"],
+    "priority": 9
+  },
+  {
+    "name": "1Password",
+    "manager": "winget",
+    "tags": ["security", "password-manager", "premium"],
+    "priority": 8
+  },
+  {
+    "name": "Bitwarden",
+    "manager": "winget",
+    "tags": ["security", "password-manager", "open-source"],
+    "priority": 8
+  },
+  {
+    "name": "KeePass",
+    "manager": "winget",
+    "tags": ["security", "password-manager", "offline"],
+    "priority": 7
+  },
+  {
+    "name": "NordVPN",
+    "manager": "winget",
+    "tags": ["security", "vpn", "privacy"],
+    "priority": 8
+  },
+  {
+    "name": "ExpressVPN",
+    "manager": "winget",
+    "tags": ["security", "vpn", "privacy"],
+    "priority": 7
+  },
+  {
+    "name": "ProtonVPN",
+    "manager": "winget",
+    "tags": ["security", "vpn", "privacy", "free"],
+    "priority": 6
+  },
+  {
+    "name": "Tor Browser",
+    "manager": "winget",
+    "tags": ["security", "privacy", "browser", "anonymous"],
+    "priority": 7
+  },
+  {
+    "name": "Brave Browser",
+    "manager": "winget",
+    "tags": ["security", "privacy", "browser"],
+    "priority": 6
+  },
+  {
+    "name": "DuckDuckGo Privacy Browser",
+    "manager": "winget",
+    "tags": ["security", "privacy", "browser"],
+    "priority": 5
+  },
+  {
+    "name": "Signal",
+    "manager": "winget",
+    "tags": ["security", "privacy", "messaging", "encrypted"],
+    "priority": 8
+  },
+  {
+    "name": "Telegram",
+    "manager": "winget",
+    "tags": ["security", "privacy", "messaging"],
+    "priority": 6
+  },
+  {
+    "name": "WhatsApp",
+    "manager": "winget",
+    "tags": ["security", "messaging", "encrypted"],
+    "priority": 5
+  },
+  {
+    "name": "VeraCrypt",
+    "manager": "winget",
+    "tags": ["security", "encryption", "disk"],
+    "priority": 7
+  },
+  {
+    "name": "Cryptomator",
+    "manager": "winget",
+    "tags": ["security", "encryption", "cloud"],
+    "priority": 6
+  },
+  {
+    "name": "GnuPG",
+    "manager": "winget",
+    "tags": ["security", "encryption", "pgp"],
+    "priority": 5
+  },
+  {
+    "name": "CCleaner",
+    "manager": "winget",
+    "tags": ["security", "privacy", "cleanup"],
+    "priority": 6
+  },
+  {
+    "name": "BleachBit",
+    "manager": "winget",
+    "tags": ["security", "privacy", "cleanup", "open-source"],
+    "priority": 5
+  },
+  {
+    "name": "Recuva",
+    "manager": "winget",
+    "tags": ["security", "recovery", "data"],
+    "priority": 4
+  },
+  {
+    "name": "TestDisk",
+    "manager": "winget",
+    "tags": ["security", "recovery", "disk"],
+    "priority": 3
+  },
+  {
+    "name": "Wireshark",
+    "manager": "winget",
+    "tags": ["security", "network", "monitoring"],
+    "priority": 4
+  },
+  {
+    "name": "Nmap",
+    "manager": "winget",
+    "tags": ["security", "network", "scanning"],
+    "priority": 3
+  },
+  {
+    "name": "OpenVPN",
+    "manager": "winget",
+    "tags": ["security", "vpn", "open-source"],
+    "priority": 5
+  },
+  {
+    "name": "Firewall App Blocker",
+    "manager": "winget",
+    "tags": ["security", "firewall", "windows"],
+    "priority": 6
+  },
+  {
+    "name": "GlassWire",
+    "manager": "winget",
+    "tags": ["security", "network", "monitoring"],
+    "priority": 4
+  },
+  {
+    "name": "Process Hacker",
+    "manager": "winget",
+    "tags": ["security", "system", "monitoring"],
+    "priority": 3
+  },
+  {
+    "name": "Autoruns",
+    "manager": "winget",
+    "tags": ["security", "system", "startup"],
+    "priority": 3
+  },
+  {
+    "name": "Process Monitor",
+    "manager": "winget",
+    "tags": ["security", "system", "monitoring"],
+    "priority": 2
+  },
+  {
+    "name": "Sysinternals Suite",
+    "manager": "winget",
+    "tags": ["security", "system", "utilities"],
+    "priority": 2
+  }
+] 

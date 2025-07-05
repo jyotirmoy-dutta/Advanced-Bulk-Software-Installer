@@ -1,0 +1,10 @@
+[
+  { "name": "Google Chrome", "manager": "winget" },
+  { "name": "7zip", "manager": "choco" },
+  { "name": "git", "manager": "scoop" },
+  { "name": "VLC media player" },
+  { "name": "Notepad++", "manager": "choco", "customArgs": "--params \"/D=C:\\Program Files\\Notepad++\"" },
+  { "name": "Visual Studio Code", "manager": "winget" },
+  { "name": "Firefox", "manager": "winget" },
+  { "name": "Adobe Reader", "manager": "choco" }
+] 

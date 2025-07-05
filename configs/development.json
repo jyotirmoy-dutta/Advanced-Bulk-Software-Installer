@@ -1,0 +1,154 @@
+[
+  {
+    "name": "git",
+    "manager": "winget",
+    "tags": ["development", "version-control", "essential"],
+    "priority": 10,
+    "customArgs": "--silent"
+  },
+  {
+    "name": "Visual Studio Code",
+    "manager": "winget",
+    "tags": ["development", "editor", "essential"],
+    "priority": 9
+  },
+  {
+    "name": "Python",
+    "manager": "winget",
+    "tags": ["development", "python", "essential"],
+    "priority": 8
+  },
+  {
+    "name": "Node.js",
+    "manager": "choco",
+    "tags": ["development", "javascript", "essential"],
+    "priority": 8,
+    "customArgs": "--params \"/D=C:\\Program Files\\nodejs\""
+  },
+  {
+    "name": "Docker Desktop",
+    "manager": "winget",
+    "tags": ["development", "containerization"],
+    "priority": 7
+  },
+  {
+    "name": "Postman",
+    "manager": "winget",
+    "tags": ["development", "api", "testing"],
+    "priority": 6
+  },
+  {
+    "name": "GitHub Desktop",
+    "manager": "winget",
+    "tags": ["development", "version-control", "gui"],
+    "priority": 5
+  },
+  {
+    "name": "IntelliJ IDEA Community",
+    "manager": "winget",
+    "tags": ["development", "editor", "java"],
+    "priority": 5
+  },
+  {
+    "name": "Eclipse IDE",
+    "manager": "winget",
+    "tags": ["development", "editor", "java"],
+    "priority": 4
+  },
+  {
+    "name": "Android Studio",
+    "manager": "winget",
+    "tags": ["development", "mobile", "android"],
+    "priority": 4
+  },
+  {
+    "name": "XAMPP",
+    "manager": "choco",
+    "tags": ["development", "web", "php"],
+    "priority": 4
+  },
+  {
+    "name": "Wireshark",
+    "manager": "winget",
+    "tags": ["development", "networking", "debugging"],
+    "priority": 3
+  },
+  {
+    "name": "Fiddler",
+    "manager": "winget",
+    "tags": ["development", "networking", "debugging"],
+    "priority": 3
+  },
+  {
+    "name": "Notepad++",
+    "manager": "choco",
+    "tags": ["development", "editor", "text"],
+    "priority": 3
+  },
+  {
+    "name": "Sublime Text",
+    "manager": "winget",
+    "tags": ["development", "editor", "text"],
+    "priority": 2
+  },
+  {
+    "name": "Atom",
+    "manager": "winget",
+    "tags": ["development", "editor", "text"],
+    "priority": 2
+  },
+  {
+    "name": "Brackets",
+    "manager": "winget",
+    "tags": ["development", "editor", "web"],
+    "priority": 2
+  },
+  {
+    "name": "MongoDB Compass",
+    "manager": "winget",
+    "tags": ["development", "database", "mongodb"],
+    "priority": 2
+  },
+  {
+    "name": "MySQL Workbench",
+    "manager": "winget",
+    "tags": ["development", "database", "mysql"],
+    "priority": 2
+  },
+  {
+    "name": "pgAdmin",
+    "manager": "winget",
+    "tags": ["development", "database", "postgresql"],
+    "priority": 2
+  },
+  {
+    "name": "Redis Desktop Manager",
+    "manager": "winget",
+    "tags": ["development", "database", "redis"],
+    "priority": 1
+  },
+  {
+    "name": "Insomnia",
+    "manager": "winget",
+    "tags": ["development", "api", "testing"],
+    "priority": 1
+  },
+  {
+    "name": "SoapUI",
+    "manager": "winget",
+    "tags": ["development", "api", "testing"],
+    "priority": 1
+  },
+  {
+    "name": "JMeter",
+    "manager": "winget",
+    "tags": ["development", "testing", "performance"],
+    "priority": 1
+  },
+  {
+    "name": "Selenium IDE",
+    "manager": "winget",
+    "tags": ["development", "testing", "automation"],
+    "priority": 1
+  }
+] 

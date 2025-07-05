@@ -1,0 +1,94 @@
+[
+  {
+    "name": "git",
+    "manager": "winget",
+    "tags": ["development", "version-control"],
+    "priority": 10,
+    "customArgs": "--silent"
+  },
+  {
+    "name": "Visual Studio Code",
+    "manager": "winget",
+    "tags": ["development", "editor"],
+    "priority": 9
+  },
+  {
+    "name": "7zip",
+    "manager": "choco",
+    "tags": ["utility", "compression"],
+    "priority": 8
+  },
+  {
+    "name": "Google Chrome",
+    "manager": "winget",
+    "tags": ["browser", "web"],
+    "priority": 7
+  },
+  {
+    "name": "VLC media player",
+    "manager": "winget",
+    "tags": ["media", "video"],
+    "priority": 6
+  },
+  {
+    "name": "Node.js",
+    "manager": "choco",
+    "tags": ["development", "javascript"],
+    "priority": 5,
+    "customArgs": "--params \"/D=C:\\Program Files\\nodejs\""
+  },
+  {
+    "name": "Python",
+    "manager": "winget",
+    "tags": ["development", "python"],
+    "priority": 5
+  },
+  {
+    "name": "Docker Desktop",
+    "manager": "winget",
+    "tags": ["development", "containerization"],
+    "priority": 4
+  },
+  {
+    "name": "Postman",
+    "manager": "winget",
+    "tags": ["development", "api"],
+    "priority": 3
+  },
+  {
+    "name": "Notepad++",
+    "manager": "choco",
+    "tags": ["editor", "text"],
+    "priority": 2
+  },
+  {
+    "name": "Firefox",
+    "manager": "winget",
+    "tags": ["browser", "web"],
+    "priority": 1
+  },
+  {
+    "name": "Adobe Reader",
+    "manager": "choco",
+    "tags": ["utility", "pdf"],
+    "priority": 1
+  },
+  {
+    "name": "WinRAR",
+    "manager": "choco",
+    "tags": ["utility", "compression"],
+    "priority": 1
+  },
+  {
+    "name": "Discord",
+    "manager": "winget",
+    "tags": ["communication", "social"],
+    "priority": 1
+  },
+  {
+    "name": "Steam",
+    "manager": "winget",
+    "tags": ["gaming", "entertainment"],
+    "priority": 1
+  }
+] 

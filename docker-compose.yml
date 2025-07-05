@@ -1,0 +1,120 @@
+version: '3.8'
+
+services:
+  bulk-installer:
+    build: .
+    container_name: bulk-software-installer
+    volumes:
+      # Mount configuration files
+      - ./configs:/app/configs:ro
+      - ./apps.json:/app/apps.json:ro
+      # Mount logs directory
+      - ./logs:/app/logs
+      # Mount data directory for persistent storage
+      - ./data:/app/data
+      # Mount host system for package manager access (Linux only)
+      - /var/lib/dpkg:/var/lib/dpkg:ro
+      - /var/lib/snapd:/var/lib/snapd:ro
+      - /var/lib/flatpak:/var/lib/flatpak:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DEBIAN_FRONTEND=noninteractive
+    working_dir: /app
+    command: ["python", "bulk_installer.py", "install", "--config", "apps.json"]
+    restart: unless-stopped
+    networks:
+      - bulk-installer-network
+
+  # Web interface service (optional)
+  bulk-installer-web:
+    build: .
+    container_name: bulk-installer-web
+    volumes:
+      - ./configs:/app/configs:ro
+      - ./apps.json:/app/apps.json:ro
+      - ./logs:/app/logs
+      - ./data:/app/data
+    ports:
+      - "8080:8080"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - WEB_INTERFACE=true
+    working_dir: /app
+    command: ["python", "bulk_installer_web.py"]
+    restart: unless-stopped
+    depends_on:
+      - bulk-installer
+    networks:
+      - bulk-installer-network
+
+  # Database for storing installation history (optional)
+  postgres:
+    image: postgres:13
+    container_name: bulk-installer-db
+    environment:
+      POSTGRES_DB: bulk_installer
+      POSTGRES_USER: installer
+      POSTGRES_PASSWORD: secure_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    networks:
+      - bulk-installer-network
+
+  # Redis for caching and job queue (optional)
+  redis:
+    image: redis:6-alpine
+    container_name: bulk-installer-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    networks:
+      - bulk-installer-network
+
+  # Monitoring with Prometheus and Grafana (optional)
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: bulk-installer-prometheus
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    ports:
+      - "9090:9090"
+    restart: unless-stopped
+    networks:
+      - bulk-installer-network
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: bulk-installer-grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards:ro
+      - ./monitoring/grafana/datasources:/etc/grafana/provisioning/datasources:ro
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    depends_on:
+      - prometheus
+    networks:
+      - bulk-installer-network
+
+volumes:
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+  prometheus_data:
+    driver: local
+  grafana_data:
+    driver: local
+
+networks:
+  bulk-installer-network:
+    driver: bridge 
