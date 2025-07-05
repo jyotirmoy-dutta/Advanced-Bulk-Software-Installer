@@ -341,10 +341,3 @@ bulkInstaller/
 - Analytics and visualization libraries
 
 ---
-
-**Made with ❤️ by the Bulk Installer Team**
-
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/bulkInstaller?style=social)](https://github.com/yourusername/bulkInstaller)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/bulkInstaller?style=social)](https://github.com/yourusername/bulkInstaller)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/bulkInstaller)](https://github.com/yourusername/bulkInstaller/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/bulkInstaller)](https://github.com/yourusername/bulkInstaller/pulls) 
